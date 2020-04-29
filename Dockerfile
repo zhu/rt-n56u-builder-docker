@@ -8,8 +8,4 @@ RUN apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano x
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev \
         gcc-multilib
 
-RUN useradd builder
-
-USER builder
-
 CMD /bin/bash
